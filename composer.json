@@ -11,6 +11,12 @@
   "minimum-stability": "dev",
   "prefer-stable" : true,
   "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:nicklee1990/Force.com-Toolkit-for-PHP.git"
+    }
+  ],
   "authors": [
     {
       "name": "Davis Peixoto",
@@ -19,7 +25,7 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "davispeixoto/force-dot-com-toolkit-for-php": "~1.0.9",
+    "davispeixoto/force-dot-com-toolkit-for-php": "~1.1.0",
     "illuminate/support": "~5.0",
     "vlucas/phpdotenv": "~2.2"
   },
